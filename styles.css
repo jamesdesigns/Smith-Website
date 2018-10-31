@@ -15,21 +15,31 @@
 .bg-dark {
     background-color: #000000 !important;
 }
+
+
 .logo {
-        font-weight: 200;
+        font-weight: 100;
     font-family: 'Crimson Text', serif;
+    color: #a8a3a8;
+    font-size: 120%;
 }
 
 .menu {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    color: #686868;
+    color: #ecd9c6;
 }
 
 .subject {
 color: #303030;
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;    
+}
+
+.introduction {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 .customFooter {
@@ -39,6 +49,11 @@ font-weight: 300;
     color: #4d4d4d;
     background-color: #a8a3a8;
     
+}
+
+q, 
+blockquote {
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 blockquote {

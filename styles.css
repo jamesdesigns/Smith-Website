@@ -25,6 +25,10 @@
     margin-right: 43%;
 }
 
+.logo:hover, .logo:active {
+    color: #fff;
+}
+
 .logo-v2 {
     font-weight: 100;
     font-family: 'Crimson Text', serif;
@@ -37,6 +41,10 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: #A0A0A0;
+}
+
+.menu:hover, .menu:active {
+    color: #fff;
 }
 
 .professor {
@@ -76,15 +84,12 @@ a.linkBtn  {
     color: #4d4d4d;
 }
 
+
 a.linkBtn:hover, a.linkBtn:active {
-    color: #fff;
     text-decoration: none;
     color: #fff;
 }
 
-a.menu {
-    color:#fff;
-}
 
 q, 
 blockquote {

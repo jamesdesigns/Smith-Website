@@ -30,7 +30,7 @@
     font-family: 'Crimson Text', serif;
     color: #000;
     font-size: 115%;
-    text-decoration: underline;
+    
 }
 
 .menu {
@@ -79,6 +79,11 @@ a.linkBtn  {
 a.linkBtn:hover, a.linkBtn:active {
     color: #fff;
     text-decoration: none;
+    color: #fff;
+}
+
+a.menu {
+    color:#fff;
 }
 
 q, 
@@ -89,7 +94,7 @@ blockquote {
 blockquote {
     width: 60%;
     margin: 0 auto;
-    padding-top: 6%;
+    padding-top: 8%;
     font-size: 190%;
     font-weight: 100;
     font-family: 'Crimson Text', serif;

@@ -145,6 +145,21 @@ dl {
     color: #6b6b47;
 }
 
+/* Overwrite */
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('images/hamburger-icon.png');
+    background-repeat: no-repeat;
+}
+
+.navbar-light:hover, .navbar-light:active, .navbar-toggler-icon:hover, .navbar-toggler-icon:active {
+        background-image: url('images/hamburger-icon-hover.png');
+    background-repeat: no-repeat;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap

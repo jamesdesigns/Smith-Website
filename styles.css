@@ -20,7 +20,6 @@
 
 .historyQuote {
     display: block;
-    width: 75%;
     background-color: #6f666b;
     color: #fff;
     margin-bottom: 3%;
@@ -145,7 +144,7 @@ blockquote {
 }
 
 blockquote {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     padding-top: 7%;
     padding-bottom: 7%;

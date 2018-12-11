@@ -2,14 +2,28 @@
     background-image: image("images/space-v1.jpg");
 }
 
+.historyBG {
+    background-image: image("images/space-v1.jpg");
+       background-color: #f7f7ea;
+}
 
+.historyContainer {
+ 
+}
 
 .quote {
     display: block;
-    height: 325px;
     background-color: #6f666b;
     color: #fff;
 
+}
+
+.historyQuote {
+    display: block;
+    width: 75%;
+    background-color: #6f666b;
+    color: #fff;
+    margin-bottom: 3%;
 }
 
 .bg-dark {
@@ -117,6 +131,7 @@ a.linkBtn:hover, a.linkBtn:active {
     text-decoration: none;
 }
 
+
 #back2Top:hover {
     background-color: #DDF;
     color: #000;
@@ -133,10 +148,12 @@ blockquote {
     width: 60%;
     margin: 0 auto;
     padding-top: 7%;
+    padding-bottom: 7%;
     font-size: 190%;
     font-weight: 100;
     font-family: 'Crimson Text', serif;
 }
+
 
 dl {
     margin-left: 2%;

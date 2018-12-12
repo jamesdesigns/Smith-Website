@@ -172,6 +172,10 @@ dl {
     color: #6b6b47;
 }
 
+.marginBtm {
+    margin-bottom: 3%;
+}
+
 /* Overwrite */
 .navbar-light .navbar-toggler {
     color: #fff !important;

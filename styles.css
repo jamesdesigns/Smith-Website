@@ -8,13 +8,15 @@
 }
 
 .musicBG {
-     background-image: image("images/music-image.png");
-       background-color: #040500;   
+    background-image: image("images/music-image.png");
+    background-color: #040500;   
     margin-bottom: 0;
 }
 
 .historyContainer {
- 
+    display:block;
+    width: 100%;
+    height: 498px;
 }
 
 .musicContainer {
@@ -31,6 +33,13 @@
 }
 
 .musicHeading {
+    font-size: 800%;
+    color: #fff;
+    margin-top: -125px;
+    letter-spacing: 5px;
+}
+
+.mathHeading {
     font-size: 800%;
     color: #fff;
     margin-top: -125px;

@@ -23,6 +23,13 @@
     height: 498px;
 }
 
+.historyHeading {
+    font-size: 800%;
+    color: #fff;
+    margin-top: -125px;
+    letter-spacing: 5px;
+}
+
 .musicHeading {
     font-size: 800%;
     color: #fff;

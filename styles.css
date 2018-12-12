@@ -7,8 +7,27 @@
        background-color: #f7f7ea;
 }
 
+.musicBG {
+     background-image: image("images/music-image.png");
+       background-color: #040500;   
+    margin-bottom: 0;
+}
+
 .historyContainer {
  
+}
+
+.musicContainer {
+    display: block;
+    width: 100%;
+    height: 498px;
+}
+
+.musicHeading {
+    font-size: 800%;
+    color: #fff;
+    margin-top: -125px;
+    letter-spacing: 5px;
 }
 
 .quote {

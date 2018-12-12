@@ -13,6 +13,11 @@
     margin-bottom: 0;
 }
 
+.mathBG {
+    background-image: image("images/math-image.png");
+    background-color: #292925;
+}
+
 .historyContainer {
     display:block;
     width: 100%;
@@ -20,6 +25,12 @@
 }
 
 .musicContainer {
+    display: block;
+    width: 100%;
+    height: 498px;
+}
+
+.mathContainer {
     display: block;
     width: 100%;
     height: 498px;

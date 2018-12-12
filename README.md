@@ -1,0 +1,2 @@
+# Smith-Website
+This is a website designed for a professor at the University of Reno. On this site contains all his work, subjects he teaches, and all personal information that pertains to him and his work in the professional field of History, Math, and Philosophy.

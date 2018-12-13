@@ -1,10 +1,16 @@
 .headerBG {
-    background-image: image("images/space-v1.jpg");
+    background-image: image("images/deep-space-image.jpg");
+    background-color: #000;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+    
 }
 
 .historyBG {
     background-image: image("images/space-v1.jpg");
-       background-color: #f7f7ea;
+    background-color: #f7f7ea;
 }
 
 .musicBG {
@@ -14,7 +20,7 @@
 }
 
 .mathBG {
-    background-image: image("images/math-image.png");
+    background-image: image("images/math-image.jpg");
     background-color: #292925;
 }
 
@@ -71,13 +77,11 @@
     margin-bottom: 3%;
 }
 
-.bg-dark {
-    background-color: #000000 !important;
-}
+
 
 
 .logo {
-        font-weight: 100;
+    font-weight: 100;
     font-family: 'Crimson Text', serif;
     color: #D8D8D8;
     font-size: 115%;

@@ -32,6 +32,10 @@
     background-color: #fff;
 }
 
+.formBG {
+
+}
+
 .historyContainer {
     display:block;
     /* width: 100%; */
@@ -69,6 +73,12 @@
     color: #fff;
     margin-top: -125px;
     letter-spacing: 5px;
+}
+.formHeading {
+
+}
+.formContainer {
+    margin: 3%;
 }
 
 .quote {

@@ -1,7 +1,13 @@
 .headerBG {
     background-image: image("images/deep-space-image.jpg");
+    width: 100%;
     background-color: #000;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 .bg-dark {
     background-color: #000000 !important;
@@ -10,36 +16,38 @@
 
 .historyBG {
     background-image: image("images/space-v1.jpg");
-    background-color: #f7f7ea;
+    /* background-color: #f7f7ea; */
+    background-color: #fff;
 }
 
 .musicBG {
     background-image: image("images/music-image.png");
-    background-color: #040500;   
-    margin-bottom: 0;
+    /* background-color: #040500;    */
+    background-color: #fff;
 }
 
 .mathBG {
     background-image: image("images/math-image.jpg");
-    background-color: #292925;
+    /* background-color: #292925; */
+    background-color: #fff;
 }
 
 .historyContainer {
     display:block;
-    width: 100%;
-    height: 498px;
+    /* width: 100%; */
+    /* height: 498px; */
 }
 
 .musicContainer {
     display: block;
-    width: 100%;
-    height: 498px;
+    /* width: 100%;
+    height: 498px; */
 }
 
 .mathContainer {
     display: block;
-    width: 100%;
-    height: 498px;
+    /* width: 100%;
+    height: 498px; */
 }
 
 .historyHeading {
@@ -246,7 +254,9 @@ dl {
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }

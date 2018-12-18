@@ -1,6 +1,16 @@
 // TweenMax.from(".logo", 1.5, {x:300, opacity:0, scale:0.4});
 
 
+// NEW BACK TO TOP LINK
+//  var backToTopBtn = document.getElementById("scrollUp");
+
+//  backToTopBtn.onclick = function() {
+//      TweenLite.to(window, 1, {scrollTo:{y:"#section1", offsetY:90}});
+//    }
+
+
+
+
 // New GreenSock animation
 TweenMax.fromTo('.viewport', 2, {
     backgroundSize: function(i, e) { //I use a function-based value so that it works with multiple targets and so that it grabs the value EXACTLY at the time the tween starts.
@@ -8,7 +18,7 @@ TweenMax.fromTo('.viewport', 2, {
     }
 }, {
     // backgroundSize: "300px 250px",
-    backgroundSize: "1250px 461px",
+    backgroundSize: "1000px 369px",
     yoyo: true,
     repeat: 0, 
     delay: .5, 
@@ -79,6 +89,10 @@ if (imageUrl && !/\d/g.test(size)) {
 return size;
 }
 
+
+
+
+TweenLite.to(scrollUp, 2, {scrollTo:{y:"max"}});
 
 
 

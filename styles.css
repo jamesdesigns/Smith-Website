@@ -5,9 +5,7 @@
 }
 
 .container {
-    display: inline;
-    width: 100%;
-    height: 300px;
+    
 }
 
 .responsive {
@@ -260,9 +258,10 @@ dl {
 /* NEW GREENSOCK ANIMATION SCRIPT */
 .viewport {
     /* background-image: url('https://cdn.spacetelescope.org/archives/images/large/heic1118b.jpg'); */
-    background-image: url('images/deep-space-image-v2.jpg');
+    background-image: url('images/deep-space-image-v3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
     height: 50vh;
 }
 

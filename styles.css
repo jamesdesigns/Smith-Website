@@ -42,7 +42,7 @@
 .quadriviumContainer {
     margin-left: 7%;
     margin-right: 15%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .historyContainer {
@@ -258,7 +258,7 @@ dl {
 /* NEW GREENSOCK ANIMATION SCRIPT */
 .viewport {
     /* background-image: url('https://cdn.spacetelescope.org/archives/images/large/heic1118b.jpg'); */
-    background-image: url('images/deep-space-image-v3.jpg');
+    background-image: url('images/deep-space-image-v4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;

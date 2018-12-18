@@ -36,6 +36,11 @@
 
 }
 
+.quadriviumContainer {
+    margin-left: 7%;
+    margin-right: 15%;
+}
+
 .historyContainer {
     display:block;
     /* width: 100%; */

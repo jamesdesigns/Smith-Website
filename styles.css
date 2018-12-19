@@ -35,6 +35,12 @@
     background-color: #fff;
 }
 
+.philosophyBG {
+    /* background-image: image("images/math-image.jpg"); */
+    /* background-color: #292925; */
+    background-color: #000;
+}
+
 .formBG {
 
 }
@@ -65,25 +71,36 @@
 }
 
 .historyHeading {
-    font-size: 800%;
+    font-size: 1500%;
+    font-family: 'Alegreya', serif;
     color: #fff;
-    margin-top: -125px;
+    margin-top: -222px;
     letter-spacing: 5px;
 }
 
 .musicHeading {
-    font-size: 800%;
+    font-size: 1500%;
+    font-family: 'Alegreya', serif;
     color: #fff;
-    margin-top: -125px;
+    margin-top: -220px;
     letter-spacing: 5px;
 }
 
 .mathHeading {
-    font-size: 800%;
+    font-size: 1500%;
+    font-family: 'Alegreya', serif;
     color: #fff;
-    margin-top: -125px;
+    margin-top: -222px;
+    letter-spacing: 5px;
+
+}
+.philosophyHeading {
+    font-size: 1500%;
+    font-family: 'Alegreya', serif;
+    color: #fff;
     letter-spacing: 5px;
 }
+
 .formHeading {
 
 }

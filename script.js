@@ -18,7 +18,7 @@ TweenMax.fromTo('.viewport', 2, {
     }
 }, {
     // backgroundSize: "300px 250px",
-    backgroundSize: "1000px 369px",
+    backgroundSize: "1250px 461px",
     yoyo: true,
     repeat: 0, 
     delay: .5, 

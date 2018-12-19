@@ -169,6 +169,11 @@
     
 }
 
+/* Extra padding for icons in the footer */
+.extra {
+    padding-right: 5px;
+}
+
 .subject {
 color: #303030;
 font-family: 'Open Sans', sans-serif;
@@ -272,6 +277,11 @@ dl {
 
 .marginBtm {
     margin-bottom: 3%;
+}
+
+.myArrow {
+    font-size: 150%;
+    color: #4d4d4d;
 }
 
 /* NEW GREENSOCK ANIMATION SCRIPT */

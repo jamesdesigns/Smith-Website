@@ -29,6 +29,16 @@
     background-color: #fff;
 }
 
+.musicList {
+    display: block;
+    width: 75%;
+    border-radius: 5px;
+    border:1px solid #303030;
+    margin:3% 12%;
+    padding: 5%;
+
+}
+
 .mathBG {
     background-image: image("images/math-image.jpg");
     /* background-color: #292925; */
@@ -176,7 +186,8 @@
 
 .subject {
 color: #303030;
-font-family: 'Open Sans', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+font-family: 'Alegreya', serif;
 font-weight: 300;    
 }
 

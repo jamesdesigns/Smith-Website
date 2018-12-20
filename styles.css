@@ -48,7 +48,7 @@
 .quadriviumContainer {
     margin-left: 7%;
     margin-right: 15%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .historyContainer {
@@ -182,14 +182,21 @@ font-weight: 300;
 
 .introduction {
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-bottom: 5%;
 }
 
 .introHistory {
     display: block;
-    width: 60%;
+    width: 72%;
     margin-bottom:5%;
+}
+
+.introPhilosophy {
+    display: block;
+    width: 72%;
+    margin-bottom:5%;
+    margin-top: 5%;
 }
 
 .customFooter {

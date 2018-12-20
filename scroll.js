@@ -1,14 +1,22 @@
+// NEW BACK TO TOP LINK
+// var backToTopBtn = document.getElementById("scrollUp");
+
+// backToTopBtn.onclick = function() {
+//     TweenLite.to(window, 1, {scrollTo:{y:"#section1", offsetY:90}});
+//   }
+
+
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100) {
-        $('#back2Top').fadeIn();
+        $('#scrollUp').fadeIn();
     } else {
-        $('#back2Top').fadeOut();
+        $('#scrollUp').fadeOut();
     }
 });
 $(document).ready(function() {
-    $("#back2Top").click(function(event) {
+    $("#scrollUp").click(function(event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;

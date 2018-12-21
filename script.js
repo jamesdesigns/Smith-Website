@@ -2,7 +2,7 @@
 TweenMax.to(".quadriviumContainer", 1, {y:-120});
 
 
-TweenMax.to(".historyHeading", 1, {opacity:0.3});
+
 
 
 // New GreenSock animation
@@ -15,7 +15,7 @@ TweenMax.fromTo('.viewport', 2, {
     backgroundSize: "1250px 461px",
     yoyo: true,
     repeat: 0, 
-    delay: .5, 
+    delay: .1, 
     ease: Power0.easeInOut
 });
 

@@ -243,6 +243,10 @@ font-family: 'Alegreya', serif;
     margin-bottom:5%;
     margin-top: 5%;
 }
+.contactTitle {
+    font-family: 'Alegreya', serif;
+    margin-left: -3px;
+}
 
 .customFooter {
     display: block;
@@ -358,6 +362,11 @@ dl {
 .navbar-toggler-icon:hover, .navbar-toggler-icon:active {
         background-image: url('images/hamburger-icon-hover.png');
     background-repeat: no-repeat;
+}
+
+/* CSS ADDITION TO BOOTSTRAP'S MENU NAV  */
+.navbar-light .navbar-nav .nav-link {
+    margin-top: 8px;
 }
 
 

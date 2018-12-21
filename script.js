@@ -2,6 +2,9 @@
 TweenMax.to(".quadriviumContainer", 1, {y:-120});
 
 
+TweenMax.to(".historyHeading", 1, {opacity:0.3});
+
+
 // New GreenSock animation
 TweenMax.fromTo('.viewport', 2, {
     backgroundSize: function(i, e) { //I use a function-based value so that it works with multiple targets and so that it grabs the value EXACTLY at the time the tween starts.

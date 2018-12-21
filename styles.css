@@ -136,6 +136,12 @@ float: right;
     color: #fff;
     letter-spacing: 5px;
 }
+.contactHeading {
+    font-size: 200%;
+    font-family: 'Alegreya', serif;
+    color: #000;
+}
+
 
 .formHeading {
 
@@ -150,7 +156,18 @@ float: right;
     display: block;
     background-color: #6f666b;
     color: #fff;
+}
 
+.quotePhilosophy {
+    display: block;
+    background-color: #6f666b;
+    color: #fff;
+}
+
+.quoteMusic {
+    display: block;
+    background-color: #736743;
+    color: #fff;
 }
 
 .historyQuote {
@@ -216,6 +233,7 @@ font-family: 'Alegreya', serif;
 
 .quadriviumTitle {
     font-size: 350%;
+    margin-left: -5px;
 }
 
 .introduction {

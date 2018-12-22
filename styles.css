@@ -169,6 +169,9 @@ button.nextBtn {
  background-color: transparent;
  color: #fff;
 }
+button.nextBtn:hover, button.nextBtn:active {
+    color: #6f666b;
+}
 .quote {
     display: block;
     background-color: #6f666b;

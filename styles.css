@@ -162,6 +162,13 @@ float: right;
     margin-right: 12%;
 }
 
+button.nextBtn {
+ margin-bottom: 2%;
+ margin-left: 50%;
+ font-size: 115%;
+ background-color: transparent;
+ color: #fff;
+}
 .quote {
     display: block;
     background-color: #6f666b;

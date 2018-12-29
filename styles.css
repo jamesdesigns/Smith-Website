@@ -89,6 +89,7 @@ float: right;
     display:block;
     /* width: 100%; */
     /* height: 498px; */
+
 }
 
 .musicContainer {
@@ -119,6 +120,7 @@ float: right;
     margin-top: -222px;
     letter-spacing: 5px;
 }
+
 
 .musicHeading {
     font-size: 1500%;
@@ -271,7 +273,7 @@ font-family: 'Alegreya', serif;
 .introHistory {
     display: block;
     width: 72%;
-    margin-bottom:5%;
+    margin-bottom:10%;
 }
 
 .introPhilosophy {
@@ -423,7 +425,9 @@ dl {
  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+
+ }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }

@@ -117,8 +117,9 @@ float: right;
     font-size: 1500%;
     font-family: 'Alegreya', serif;
     color: #fff;
-    margin-top: -222px;
+    /* margin-top: -222px; */
     letter-spacing: 5px;
+    background-color: #000;
 }
 
 
@@ -273,7 +274,8 @@ font-family: 'Alegreya', serif;
 .introHistory {
     display: block;
     width: 72%;
-    margin-bottom:10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .introPhilosophy {

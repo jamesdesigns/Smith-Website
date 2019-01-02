@@ -5,11 +5,7 @@
 }
 /* align the menu navigation to the right */
 .alignRight {
-float: right;
-
-}
-.container {
-    
+    float: right;
 }
 
 .responsive {
@@ -155,10 +151,6 @@ float: right;
     letter-spacing: 5px;
 }
 
-
-.formHeading {
-
-}
 .formContainer {
     margin-top: 4%;
     margin-left: 12%;
@@ -242,24 +234,19 @@ button.nextBtn:hover, button.nextBtn:active {
     margin-top: -15px;
 }
 
-.footer {
-    
-}
-
 /* Extra padding for icons in the footer */
 .extra {
     padding-right: 5px;
 }
 
 .subject {
-color: #303030;
-/* font-family: 'Open Sans', sans-serif; */
-font-family: 'Alegreya', serif;
+    color: #303030;
+    font-family: 'Alegreya', serif;
 }
 
 .quadriviumTitle {
     font-size: 9vw;
-    margin-left: -5px;
+    margin-left: -15px;
 }
 
 .introduction {
@@ -303,8 +290,17 @@ font-family: 'Alegreya', serif;
     color: #4d4d4d;
     background-color: #a8a3a8;
     padding-top: 3%;
-    
 }
+
+.designerLink {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+.designerLink:hover {
+    color: #fff;
+    text-underline-position: below;
+}
+
 
 a {
     outline: none;
@@ -389,7 +385,6 @@ dl {
 
 /* NEW GREENSOCK ANIMATION SCRIPT */
 .viewport {
-    /* background-image: url('https://cdn.spacetelescope.org/archives/images/large/heic1118b.jpg'); */
     background-image: url('images/deep-space-image-v4.jpg');
     background-size: cover;
     background-repeat: no-repeat;

@@ -231,6 +231,10 @@ button.nextBtn:hover, button.nextBtn:active {
     color: #fff;
 }
 
+.menuCurrentPage {
+    color: #fff;
+}
+
 .professor {
     font-family: 'Crimson Text', serif;
     font-weight: 400;
@@ -303,7 +307,7 @@ font-family: 'Alegreya', serif;
 }
 
 a {
-    outline:none;
+    outline: none;
 }
 
 a.linkBtn  {

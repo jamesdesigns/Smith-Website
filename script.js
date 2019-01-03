@@ -1,17 +1,12 @@
 
 TweenMax.to(".quadriviumContainer", 1, {y:-120});
 
-
-
-
-
 // New GreenSock animation
 TweenMax.fromTo('.viewport', 2, {
     backgroundSize: function(i, e) { //I use a function-based value so that it works with multiple targets and so that it grabs the value EXACTLY at the time the tween starts.
         return getBGSize(e);
     }
 }, {
-    // backgroundSize: "300px 250px",
     backgroundSize: "1250px 461px",
     yoyo: true,
     repeat: 0, 
@@ -20,7 +15,7 @@ TweenMax.fromTo('.viewport', 2, {
 });
 
 
-//this function converts the backgroundSize of an element from "cover" or "contain" or "auto" into px-based dimensions. To set it immediately, pass true as the 2nd parameter.
+// This function converts the backgroundSize of an element from "cover" or "contain" or "auto" into px-based dimensions. To set it immediately, pass true as the 2nd parameter.
 function getBGSize(element, setInPx) {
 var e = (typeof(element) === "string") ? document.querySelector(element) : element,
         cs = window.getComputedStyle(e),

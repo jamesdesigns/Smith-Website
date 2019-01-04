@@ -208,7 +208,7 @@ button.nextBtn:hover, button.nextBtn:active {
 .logo-v2 {
     font-weight: 100;
     font-family: 'Crimson Text', serif;
-    color: #000;
+    color: #4d4d4d;
     font-size: 115%;
     
 }
@@ -383,8 +383,8 @@ dl {
     color: #4d4d4d;
 }
 
-.required {
-    color: red;
+input.error {
+    border-color: red;
 }
 
 /* NEW GREENSOCK ANIMATION SCRIPT */

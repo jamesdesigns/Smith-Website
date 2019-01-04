@@ -45,6 +45,10 @@
     margin: 0;
     padding: 0;
 }
+.audioTracks {
+    padding: 4%;
+    margin-left: 7%;
+}
 
 .parallax {
     /* The Image used */

@@ -79,5 +79,14 @@ return size;
 }
 
 
-
-
+// This is for form input validation
+const inputs = document.querySelectorAll("input, select, textarea");
+inputs.forEach(input => {
+    input.addEventListener(
+        "invalid",
+        event => {
+            input.classList.add("error");
+        },
+        false
+    );
+});

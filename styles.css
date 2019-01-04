@@ -383,6 +383,10 @@ dl {
     color: #4d4d4d;
 }
 
+.required {
+    color: red;
+}
+
 /* NEW GREENSOCK ANIMATION SCRIPT */
 .viewport {
     background-image: url('images/deep-space-image-v4.jpg');

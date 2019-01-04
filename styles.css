@@ -41,12 +41,22 @@
 
 .musicList {
     display: block;
-    width: 75%;
-    border-radius: 5px;
-    border:1px solid #303030;
-    margin:3% 12%;
-    padding: 2%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+.parallax {
+    /* The Image used */
+    background-image: url("images/music.jpg");
+    /* Set a specific height */
+    height: 400px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mathBG {

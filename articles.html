@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>James A. Smith - Documents</title>
+   <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="section1" role="navigation">
+  <a class="navbar-brand active logo" href="index.html"><span class="logo"><i>James A. Smith</i></span><span class="sr-only">(current)</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link" href="history.html"><span class="menu">History</span> </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="math.html"><span class="menu">Math</span></a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="music.html"><span class="menu">Music</span></a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="philosophy.html"><span class="menu">Philosophy</span></a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="bio.html"><span class="menu">Bio</span></a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="contact.html"><span class="menu menuCurrentPage">Contact</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </header>
+    <main role="main">
+        <section class="text-center contactBG">
+            <div class="contactContainer">
+              <h1 class="contactHeading">Articles</h1>
+            </div>
+          </section>
+       <div class="formContainer">
+      <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_firstname">First Name</label>
+                        <input id="form_firstname" type="text" name="name" class="form-control" placeholder="Your First Name*" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Last Name</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Your Last Name*" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Your Email*" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_need">Please specify your need</label>
+                        <select id="form_need" name="need" class="form-control">
+                            <option value=""></option>
+                            <option value="Request quotation">Request Information</option>
+                            <option value="Request order status">Questions</option>
+                            <option value="Request copy of an invoice">Comments</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Your Message*" rows="4" required></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-secondary btn-send" value="Send Message">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-muted">
+                        </p>
+                </div>
+            </div>
+        </div>
+    </form>
+  </div>        
+    </main>
+    <footer class="text-muted">
+        <div class="container-fluid customFooter">
+          <div class="container">
+            <p><span class="logo-v2">JAMES A. SMITH</span></p>
+            <i class="fa fa-envelope extra"></i>jsmith@gmail.com<br>
+            <i class="fa fa-music extra"></i>Music<br>
+            <i class="fa fa-file-alt extra"></i>Documents<br><br>
+          <p class="float-right">
+            <a href="#" id="scrollUp"><i class="fa fa-arrow-alt-circle-up myArrow"></i></a> 
+          </p>
+          <p>&copy;2019 James A. Smith | Designed by <a href="http://www.artistjameshooper.com" target="_blank" class="designerLink">James Hooper</a></p>
+        </div>            
+        </div>        
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="backToTop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

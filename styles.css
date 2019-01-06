@@ -173,6 +173,18 @@
     margin-bottom: 3%;
 }
 
+.articleHead {
+    font-size: 1.15rem;
+}
+
+.index {
+    padding:3.5% 0;
+}
+.index_header {
+    font-size: 3rem;
+    font-family: 'Alegreya', serif;
+}
+
 button.nextBtn {
  margin-bottom: 2%;
  margin-left: 50%;

@@ -328,6 +328,11 @@ button.nextBtn:hover, button.nextBtn:active {
     text-underline-position: below;
 }
 
+.iconLink {
+    margin-top: 15px;
+    padding-left: 3%;
+}
+
 
 a {
     outline: none;

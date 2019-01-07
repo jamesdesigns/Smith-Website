@@ -269,6 +269,12 @@ background: linear-gradient(to right, #544e51, #80777c); /* W3C, IE 10+/ Edge, F
 .extra {
     padding-right: 5px;
 }
+/* Extra padding for the link buttons */
+.btnPadding {
+    margin-bottom: 2%;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
 
 .subject {
     color: #303030;

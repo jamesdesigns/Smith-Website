@@ -333,7 +333,7 @@ background: linear-gradient(to right, #544e51, #80777c); /* W3C, IE 10+/ Edge, F
 }
 
 .iconLink {
-    margin-top: 15px;
+    margin-top: 16px;
     padding-left: 3%;
 }
 
@@ -343,7 +343,7 @@ a {
 }
 
 a.linkBtn  {
-    color: #4d4d4d;
+    color: #fff;
 }
 
 

@@ -282,6 +282,8 @@ background: linear-gradient(to right, #544e51, #80777c); /* W3C, IE 10+/ Edge, F
     padding: 8px;
     border-radius: 5px;
     color: #fff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 .customBtnColor:hover, .customBtnColor:active {
     background-color: #ccc;

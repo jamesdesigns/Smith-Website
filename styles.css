@@ -359,16 +359,16 @@ background: linear-gradient(to right, #544e51, #80777c); /* W3C, IE 10+/ Edge, F
 }
 
 
-a {
+button a {
     outline: none;
 }
 
-a.linkBtn  {
+ button a.linkBtn  {
     color: #fff;
 }
 
 
-a.linkBtn:hover, a.linkBtn:active {
+button a.linkBtn:hover, a.linkBtn:active {
     text-decoration: none;
     color: #303030;
 }
